@@ -138,7 +138,7 @@ from transformers import AutoConfig, AutoModel, AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm-6b", trust_remote_code=True)
 ```
 
-1. 如果需要加载的是新 Checkpoint（只包含 PrefixEncoder 参数）：
+1. 如果需要加载的是新 Checkpoint（只需包含 PrefixEncoder 参数）：
 
 ```python
 config = AutoConfig.from_pretrained("THUDM/chatglm-6b", trust_remote_code=True, pre_seq_len=128)
