@@ -8,7 +8,7 @@
 ## 软件依赖
 运行微调需要4.27.1版本的`transformers`。除 ChatGLM-6B 的依赖之外，还需要安装以下依赖
 ```
-pip install rouge_chinese nltk jieba datasets
+pip install rouge_chinese nltk jieba datasets filelock
 ```
 ## 使用方法
 
