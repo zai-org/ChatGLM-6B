@@ -21,6 +21,7 @@
 * [ChatGLM-6B-Engineering](https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering)：基于 ChatGLM-6B 后期调教，网络爬虫及 [Stable Diffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 实现的网络搜索及图片生成
 * [ChatGLM-OpenAI-API](https://github.com/ninehills/chatglm-openai-api): 将 ChatGLM-6B 封装为 OpenAI API 风格，并通过 ngrok/cloudflare 对外提供服务，从而将 ChatGLM 快速集成到 OpenAI 的各种生态中。
 * [ChatSQL](https://github.com/cubenlp/ChatSQL): 基于ChatGLM+SBERT实现NL2SQL本地化，并直接连接数据库查询数据返回结果，使得生成的SQL语句更具有实用性。
+* [PrimiHub](https://github.com/primihub/primihub)：基于 ChatGLM-6B 使用 PrimiHub 隐私计算框架实现联邦大模型训练。[部署文档](https://docs.primihub.com/docs/advance-usage/create-tasks/fedreated-learning/chatglm#%E4%BD%BF%E7%94%A8-primihub-%E5%AE%9E%E7%8E%B0%E8%81%94%E9%82%A6%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83)
 
 对 ChatGLM-6B 进行微调的开源项目：
 * [InstructGLM](https://github.com/yanqiangmiffy/InstructGLM)：基于ChatGLM-6B进行指令学习，汇总开源中英文指令数据，基于Lora进行指令数据微调，开放了Alpaca、Belle微调后的Lora权重，修复web_demo重复问题
