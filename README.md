@@ -400,3 +400,15 @@ model = load_model_on_gpus("THUDM/chatglm-6b", num_gpus=2)
       primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'}
 }
 ```
+
+
+## Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on
+how to report bugs, suggest features, and submit pull requests.
+
+By participating, you agree to our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+*[Mukller](https://github.com/Mukller)*
