@@ -18,18 +18,22 @@ def get_model():
 
 
 MAX_TURNS = 20
-MAX_BOXES = MAX_TURNS * 2
+
+
+def trim_history(history):
+    if len(history) > MAX_TURNS:
+        return history[-MAX_TURNS:]
+    return history
 
 
 def predict(input, max_length, top_p, temperature, history=None):
     tokenizer, model = get_model()
     if history is None:
         history = []
+    history = trim_history(history)
 
     with container:
         if len(history) > 0:
-            if len(history)>MAX_BOXES:
-                history = history[-MAX_TURNS:]
             for i, (query, response) in enumerate(history):
                 message(query, avatar_style="big-smile", key=str(i) + "_user")
                 message(response, avatar_style="bottts", key=str(i))
